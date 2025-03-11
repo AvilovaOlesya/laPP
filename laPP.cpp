@@ -1,9 +1,9 @@
-﻿// laPP.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
-
+﻿
 #include <iostream>
 #include <iomanip>
 #include <sstream>
+#include <cmath>
+#include <concepts>
 using namespace std;
 class Date {
 private:
@@ -39,7 +39,7 @@ public:
     }
 };
 int main() {
-    setlocale(LC_ALL, "RUS");
+    setlocale(LC_ALL, "Russian");
     Date date1(14, 4, 2024);
     Date date2(1, 1, 2021);
     Date date3(11, 11, 2011);
